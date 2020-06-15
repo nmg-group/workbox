@@ -8,7 +8,7 @@ Tomar un montón de software libre y gratuito absolutamente genial, bien manteni
 
 **¿Por qué "(code)"?**
 
-Simple. No tenemos autorización para usar la marca workbox y está registrada en Argentina.
+Simple. No tenemos autorización para usar la marca workbox y está registrada en Argentina (donde nació el proyecto).
 
 ## ¿Como instalarlo?
 
@@ -37,7 +37,7 @@ A continuación te solicitará el ingreso de un usuario de Github con acceso y p
 Grab a coffee ☕
 
 
-## Cómo utilizarlo
+## ¿Cómo utilizarlo?
 
 ### File server
 
@@ -70,6 +70,11 @@ Para poder conectarte a la VPN deberás:
 Si intentas conectarte desde otra red privada (detrás de un router) cuyo segmento de red coincide con el que usas en la red donde está el workbox no podrás conectarte.
 
 Ej.: Si la red donde estás asigna direcciones IP **192.168.0.X** y la red donde está workbox asigna direcciones **192.168.0.X** no podrás conectar.
+
+
+## Detalle de servicios
+
+Accede a los [detalles](Servicios.md).
 
 
 ## Roadmap

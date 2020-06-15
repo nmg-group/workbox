@@ -1,6 +1,10 @@
 # Roadmap
 
-La misión de workbox(code) es poner a disposición de pequeñas y medianas empresas tecnología Open source, fácil de utilizar.
+La misión de workbox(code) es poner a disposición de pequeñas y medianas empresas tecnología Open source, fácil de utilizar y mantener.
+
+**Sugerencias**: Estamos abiertos a todo tipo de sugerencias respecto de funciones y mejoras que podamos incorporar a workbox.
+
+Ten en cuenta que la misión de workbox no es proporcionar soluciones a medida, sino un conjunto de servicios que sean de valor para la mayoría de las organizaciones pequeñas o medianas. Dicho esto, es posible que necesites de funciones geniales y que sin duda puedes agregar a tu equipo, pero estas no necesariamente se convertirán en parte de este proyecto.
 
 ## ¿Cómo pensamos lograrlo?
 
@@ -55,3 +59,7 @@ Acceso a los puertos internos del equipo sin necesidad de abrir puertos en el ro
 ### Actualización de Proxy
 
 Actualización automática de las categorías de bloqueo en el servidor Proxy.
+
+### SSL && Reverse proxy
+
+Hostea tu propio sitio web en workbox, con SSL.
