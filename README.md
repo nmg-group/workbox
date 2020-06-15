@@ -54,9 +54,9 @@ Durante la instalación se crea un perfil de usuario para la VPN con el nombre d
 
 Para poder conectarte a la VPN deberás:
 
-1. Abrir el puerto 1194 y redireccionarlo a la IP del equipo.
+1. Abrir el puerto 1194 en tu router y redireccionarlo a la IP del equipo.
 2. Descargar OpenVPN en el dispositivo que quieras utilizar para conectar a la VPN.
-3. Ingresando por la red al equipo, abre el archivo workbox_vpn.ovpn desde el directorio Publico/VPN.
+3. Ingresando por la red al equipo, abre el archivo workbox_vpn.ovpn desde el directorio /workbox/Publico/VPN.
   1. Reemplaza la línea con el texto **remote my.remote.workbox.com.ar 1194** por **remote direccion_IP_publica_o_dominio_dinamico 1194** y guarda el archivo.
   2. Importa el archivo modificado en la aplicación OpenVPN.
   3. Conecta.
@@ -67,6 +67,10 @@ Si intentas conectarte desde otra red privada (detrás de un router) cuyo segmen
 
 Ej.: Si la red donde estás asigna direcciones IP **192.168.0.X** y la red donde está workbox asigna direcciones **192.168.0.X** no podrás conectar.
 
+
+## Roadmap
+
+Será un largo camino, pero valdrá la pena. Accede a los [detalles del roadmap](Roadmap.md).
 
 
 ## Autores
