@@ -1,0 +1,4 @@
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /home/SUDO_USER/www/html_wordpress
+</VirtualHost>

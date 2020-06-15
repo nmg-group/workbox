@@ -1,0 +1,7 @@
+test/*.log
+
+.env
+.DS_Store
+*.log
+
+private/

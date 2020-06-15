@@ -1,0 +1,19 @@
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /home/SUDO_USER/www/html_wordpress
+
+        ErrorLog /home/SUDO_USER/www/logs/error.log
+        CustomLog /home/SUDO_USER/www/logs/access.log combined
+
+</VirtualHost>
+<Directory /home/SUDO_USER/www/html_wordpress>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+</Directory>
+Alias /wb-admin	/home/SUDO_USER/www/wb-admin
+<Directory /home/SUDO_USER/www/wb-admin>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+</Directory>
