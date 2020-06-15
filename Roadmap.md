@@ -13,8 +13,6 @@ El trabajo pendiente en workbox se divide en 3:
 
 ## Funcionalidades y mejoras futuras
 
-Será un largo camino, pero iremos yendo...
-
 
 ### Panel de control web
 
