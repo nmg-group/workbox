@@ -27,7 +27,7 @@ echo -e "
 ; down-pre
 ; dhcp-option DOMAIN-ROUTE ." >> ./client-configs/base.conf
 
-cp ./resources/scripts/openvpn-make_config.sh ./client-configs/make_config.sh
+cp $(dirname "$0")/resources/scripts/openvpn-make_config.sh ./client-configs/make_config.sh
 chown ${SUDO_USER}:${SUDO_USER} ./client-configs/make_config.sh
 chmod 700 ./client-configs/make_config.sh
 

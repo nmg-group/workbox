@@ -11,7 +11,7 @@ apt-get --assume-yes install squid
 echo -e "\e[4mListo.\n\e[0m"
 
 cd "/home/${SUDO_USER}"
-rsync -avz ./resources/config/squid .config/
+rsync -avz $(dirname "$0")/resources/config/squid .config/
 mkdir -p /mnt/NAS/SquidCache
 chmod -R 777 /mnt/NAS/SquidCache
 
@@ -36,7 +36,7 @@ http_access allow all
 cache_dir ufs /mnt/NAS/SquidCache 1024 16 256
 #  END workbox
 " >> squid.conf
-	
+
 	# Setear permisos en .config/squid
 	chmod -R 777 "/home/${SUDO_USER}/.config/squid"
 	mv /usr/share/squid-langpack/es /usr/share/squid-langpack/es_old
