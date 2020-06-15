@@ -52,6 +52,6 @@ Backups automáticos de la información hacia los servidores de workbox en la nu
 
 Acceso a los puertos internos del equipo sin necesidad de abrir puertos en el router.
 
-## Actualización de Proxy
+### Actualización de Proxy
 
 Actualización automática de las categorías de bloqueo en el servidor Proxy.

@@ -1,8 +1,12 @@
 # workbox(code)
 
-workbox(code) es un gestor de servidores basado en Debian Linux super simple de utilizar.
+workbox(code) es un gestor de servidores basado en Debian Linux super-super-super-super-super simple de utilizar.
 
-### ¿Por qué (code)?
+## Misión workbox(code)
+
+Tomar un montón de software libre y gratuito absolutamente genial, bien mantenido y de grado enterprise pero complejos en general de instalar/administrar/mantener; y empaquetarlo con librerías y módulos los vuelvan fáciles de utilizar.
+
+**¿Por qué "(code)"**
 
 Simple. No tenemos autorización para usar la marca workbox y está registrada en Argentina.
 
