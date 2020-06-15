@@ -17,6 +17,8 @@ Link: https://ubuntu.com/download/server
 
 3. Si vas a utilizar características como el acceso VPN y Proxy, es altamente recomendable fijar la IP del equipo, puedes hacerlo desde tu router o [googleando cómo fijar la IP + **tu versión de SO**](https://www.google.com/search?q=ubuntu+20.04+static+ip+terminal&oq=ubuntu+20.04+fix+ip+terminal).
 
+4. Para poder conectar desde el exterior, por ejemplo a la VPN, es recomendable que cuentes con IP fija o en su defecto algún tipo de dominio dinámico.
+
 
 ### Para instalarlo
 
@@ -45,6 +47,25 @@ Tras la instalación el servidor de archivos estará activo. Si en un ordenador 
 Por defecto, el Proxy está configurado para cachear contenido pero no limitar el acceso a ninguna categoría de sitios.
 Cuando esté disponible el panel de control web puedes cambiar esta configuración.
 
+
+### VPN
+
+Durante la instalación se crea un perfil de usuario para la VPN con el nombre de workbox_vpn.
+
+Para poder conectarte a la VPN deberás:
+
+1. Abrir el puerto 1194 y redireccionarlo a la IP del equipo.
+2. Descargar OpenVPN en el dispositivo que quieras utilizar para conectar a la VPN.
+3. Ingresando por la red al equipo, abre el archivo workbox_vpn.ovpn desde el directorio Publico/VPN.
+  1. Reemplaza la línea con el texto **remote my.remote.workbox.com.ar 1194** por **remote direccion_IP_publica_o_dominio_dinamico 1194** y guarda el archivo.
+  2. Importa el archivo modificado en la aplicación OpenVPN.
+  3. Conecta.
+
+#### Problemas conocidos (VPN)
+
+Si intentas conectarte desde otra red privada (detrás de un router) cuyo segmento de red coincide con el que usas en la red donde está el workbox no podrás conectarte.
+
+Ej.: Si la red donde estás asigna direcciones IP **192.168.0.X** y la red donde está workbox asigna direcciones **192.168.0.X** no podrás conectar.
 
 
 
