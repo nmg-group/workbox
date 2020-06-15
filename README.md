@@ -1,6 +1,7 @@
-# workbox
+# workbox(code)
 
-Debian Linux based super simple server manager for small and medium sized businesses.
+workbox(code) es un gestor de servidores basado en Debian Linux super simple de utilizar.
+Por qué (code). Simple. No tenemos autorización para usar la marca workbox y está registrada en Argentina.
 
 ## Getting Started
 
@@ -8,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Esta es la primera beta de workbox(code).
 
 ```
 Give examples
@@ -16,19 +17,12 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Para instalar workbox(code) con todas las funciones pega esto en el bash:
 
 ```
-Give the example
+wget -O - https://workbox.com.ar/install | bash
 ```
 
-And repeat
-
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
@@ -68,7 +62,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
