@@ -10,17 +10,17 @@ Simple. No tenemos autorización para usar la marca workbox y está registrada e
 
 ### Pre-requisitos
 
-De momento sólo está soportado y probado con Ubuntu Server (testeado v. 20.04).
+1. De momento sólo está soportado y probado con Ubuntu Server (testeado v. 20.04).
 Link: https://ubuntu.com/download/server
 
-Debes ejecutar el instalador con un usuario con privilegios sudo. (*No el root*).
+2. Un usuario con privilegios sudo. (**No el root**).
 
-Si vas a utilizar características como el acceso VPN y Proxy, es altamente recomendable fijar la IP del equipo, puedes hacerlo desde tu router o consultando [googleando cómo fijar la IP + **tu versión de SO**](https://www.google.com/search?q=ubuntu+20.04+static+ip+terminal&oq=ubuntu+20.04+fix+ip+terminal).
+3. Si vas a utilizar características como el acceso VPN y Proxy, es altamente recomendable fijar la IP del equipo, puedes hacerlo desde tu router o [googleando cómo fijar la IP + **tu versión de SO**](https://www.google.com/search?q=ubuntu+20.04+static+ip+terminal&oq=ubuntu+20.04+fix+ip+terminal).
 
 
 ### Para instalarlo
 
-Para instalar workbox(code) con todas las funciones pega esto en el bash:
+Para instalar workbox(code) con todas las funciones, inicia sesión por línea de comandos (o abre una terminal) y pega esto en el bash:
 
 ```
 wget -O - https://workbox.com.ar/install | bash
@@ -37,7 +37,7 @@ Grab a coffee ☕
 
 Tras la instalación el servidor de archivos estará activo. Si en un ordenador con autodescubrimiento de redes activado te diriges a la carpeta de Red, lo verás ahí, esperando por tus archivos.
 
-*Ten en cuenta*: Todas las carpetas de workbox son de acceso público de momento.
+**Ten en cuenta**: Todas las carpetas de workbox son de acceso público de momento.
 
 
 ### Proxy
