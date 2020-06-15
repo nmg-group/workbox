@@ -5,3 +5,6 @@ test/*.log
 *.log
 
 private/
+
+Utilities/
+wb-admin/

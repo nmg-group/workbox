@@ -17,8 +17,8 @@ mkdir -p ./www/logs ./www/html_default ./www/html_wordpress
 echo -e "\e[4mListo.\n\e[0m"
 
 echo -e "\n\e[1mCreando archivos de configuracion de Apache\n\e[0m"
-mkdir -p /.config/apache
-rsync -avz ./resources/config/apache ./.config/
+mkdir -p ./.config/apache
+rsync -avz $(dirname "$0")/resources/config/apache ./.config/
 for filename in ./.config/apache/*; do
 	sed -i "s/SUDO_USER/${SUDO_USER}/g" "${filename}"
 	echo " -- Configurando archivo: ${filename}"
