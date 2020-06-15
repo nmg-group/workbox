@@ -126,9 +126,5 @@ echo -e "\e[4mListo.\n\e[0m"
 echo -e "\n\e[1mHabilitando el servicio\e[0m\n"
 systemctl -f enable openvpn-server@server.service
 systemctl start openvpn-server@server.service
-systemctl status openvpn-server@server.service
+# systemctl status openvpn-server@server.service
 echo -e "\e[4mListo.\n\e[0m"
-
-
-
-
