@@ -43,4 +43,8 @@ Este servicio funciona como intermediario entre el navegador del usuario (un dis
 
 Este servicio permite a los clientes que se encuentren fuera de la red interna, conectarse a través de un canal seguro y utilizar los recursos de la red interna tales como compartir archivos, utilizar impresoras o programas internos como si se encontraran físicamente conectados a la red local.
 
+![VPN](/assets/VPN.png)
+
+[Wikipedia](https://es.wikipedia.org/wiki/Red_privada_virtual).
+
 Esto es particularmente útil para home office, compartir archivos o sistemas internos sin exponerlos al exterior.
