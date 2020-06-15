@@ -14,22 +14,22 @@ El trabajo pendiente en workbox se divide en 3:
 ## Funcionalidades y mejoras futuras
 
 
-### Panel de control web
+### Panel de control web
 
 Existe un panel de control web utilizado en una versión anterior, próximamente se incorporará a la versión actual. Permitirá gestionar de manera básica los servicios instalados.
 
 
-### Nube privada OwnCloud
+### Nube privada OwnCloud
 
 Posibilidad de configurar un servidor OwnCloud para compartir los archivos en workbox a través de este servidor Open Source.
 
 
-### Dynamic DNS
+### Dynamic DNS
 
 Posibilidad de utilizar un servicio de DNS dinámico como Afraid FreeDNS
 
 
-### Backups en la nube
+### Backups en la nube
 
 Posibilidad de configurar backup automático hacia Google Drive / Dropbox y otros.
 
