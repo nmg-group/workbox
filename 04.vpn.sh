@@ -78,16 +78,16 @@ chmod -R 700 ./client-configs
 chown -R ${SUDO_USER}:${SUDO_USER} ./client-configs
 echo -e "\e[4mListo.\n\e[0m"
 
-echo -e "\n\e[1mGenerando CSR cliente1\e[0m\n"
+echo -e "\n\e[1mGenerando CSR workbox_vpn\e[0m\n"
 cd "/home/${SUDO_USER}/easy-rsa"
-su -c "./easyrsa gen-req client1 nopass" ${SUDO_USER}
-su -c "cp pki/private/client1.key ../client-configs/keys/" ${SUDO_USER}
+su -c "./easyrsa gen-req workbox_vpn nopass" ${SUDO_USER}
+su -c "cp pki/private/workbox_vpn.key ../client-configs/keys/" ${SUDO_USER}
 echo -e "\e[4mListo.\n\e[0m"
 
-echo -e "\n\e[1mFirmando CSR cliente1\e[0m\n"
+echo -e "\n\e[1mFirmando CSR workbox_vpn\e[0m\n"
 cd "/home/${SUDO_USER}/easy-rsa"
-su -c "./easyrsa sign-req client client1" ${SUDO_USER}
-su -c "cp pki/issued/client1.crt ../client-configs/keys/" ${SUDO_USER}
+su -c "./easyrsa sign-req client workbox_vpn" ${SUDO_USER}
+su -c "cp pki/issued/workbox_vpn.crt ../client-configs/keys/" ${SUDO_USER}
 echo -e "\e[4mListo.\n\e[0m"
 
 

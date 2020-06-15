@@ -32,6 +32,6 @@ chown ${SUDO_USER}:${SUDO_USER} ./client-configs/make_config.sh
 chmod 700 ./client-configs/make_config.sh
 
 cd "/home/${SUDO_USER}/client-configs"
-su -c "./make_config.sh client1" ${SUDO_USER}
+su -c "./make_config.sh workbox_vpn" ${SUDO_USER}
 su -c "mkdir -p /mnt/NAS/Publico/VPN" ${SUDO_USER}
-su -c "cp ./client-configs/files/client1.ovpn /mnt/NAS/Publico/VPN/" ${SUDO_USER}
+su -c "cp ./files/workbox_vpn.ovpn /mnt/NAS/Publico/VPN/" ${SUDO_USER}
