@@ -1,21 +1,24 @@
 # workbox(code)
 
 workbox(code) es un gestor de servidores basado en Debian Linux super simple de utilizar.
-Por qué (code). Simple. No tenemos autorización para usar la marca workbox y está registrada en Argentina.
 
-## Getting Started
+### ¿Por qué (code)?
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Simple. No tenemos autorización para usar la marca workbox y está registrada en Argentina.
 
-### Prerequisites
+## ¿Como instalarlo?
 
-Esta es la primera beta de workbox(code).
+### Pre-requisitos
 
-```
-Give examples
-```
+De momento sólo está soportado y probado con Ubuntu Server (testeado v. 20.04).
+Link: https://ubuntu.com/download/server
 
-### Installing
+Debes ejecutar el instalador con un usuario con privilegios sudo. (*No el root*).
+
+Si vas a utilizar características como el acceso VPN y Proxy, es altamente recomendable fijar la IP del equipo, puedes hacerlo desde tu router o consultando [googleando cómo fijar la IP + **tu versión de SO**](https://www.google.com/search?q=ubuntu+20.04+static+ip+terminal&oq=ubuntu+20.04+fix+ip+terminal).
+
+
+### Para instalarlo
 
 Para instalar workbox(code) con todas las funciones pega esto en el bash:
 
@@ -23,59 +26,32 @@ Para instalar workbox(code) con todas las funciones pega esto en el bash:
 wget -O - https://workbox.com.ar/install | bash
 ```
 
+A continuación te solicitará el ingreso de un usuario de Github con acceso y posteriormente la clave del usuario con privilegios Sudo.
 
-End with an example of getting some data out of the system or using it for a little demo
+Grab a coffee ☕
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+## Cómo utilizarlo
 
-### Break down into end to end tests
+### File server
 
-Explain what these tests test and why
+Tras la instalación el servidor de archivos estará activo. Si en un ordenador con autodescubrimiento de redes activado te diriges a la carpeta de Red, lo verás ahí, esperando por tus archivos.
 
-```
-Give an example
-```
+*Ten en cuenta*: Todas las carpetas de workbox son de acceso público de momento.
 
-### And coding style tests
 
-Explain what these tests test and why
+### Proxy
 
-```
-Give an example
-```
+Por defecto, el Proxy está configurado para cachear contenido pero no limitar el acceso a ninguna categoría de sitios.
+Cuando esté disponible el panel de control web puedes cambiar esta configuración.
 
-## Deployment
 
-Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Autores
 
-## Contributing
+* **NMG** - *Initial work* - [NMG](https://nicolasmendez.com.ar)
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Licencia
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Todavía nada.
