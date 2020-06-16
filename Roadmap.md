@@ -14,6 +14,10 @@ El trabajo pendiente en workbox se divide en 3:
 2. Interfaces de gestión simplificada (Panel de admin web)
 3. Interfaces de conectividad simplificada (como túneles reversos)
 
+## Virtual appliances
+
+Con cada release se liberará también un virtual appliance en formatos a definir, para facilitar aún más el acceso.
+
 
 ## Funcionalidades y mejoras futuras
 
