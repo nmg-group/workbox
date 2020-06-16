@@ -9,6 +9,7 @@ OS: Raspberry PI OS Buster
 
 **Tiempo instalación**: ~40 mins
 
+
 ## Comentarios
 
 * El instalador no habilita el servidor SSH por defecto issue #1.
