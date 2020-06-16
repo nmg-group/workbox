@@ -121,3 +121,5 @@ Puedes colaborar con el proyecto y con ello contribuir a que crezca de varias ma
 ## Licencia
 
 Ve al archivo [License](LICENSE) para ver derechos y limitaciones (GNU GPL v3).
+
+Made in Argentina 🇦🇷 by ~~gauchos~~ nerds.
