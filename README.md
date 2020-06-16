@@ -1,10 +1,20 @@
 # workbox(code)
 
+**¿Qué tienen en común un Raspberry Pi y un server HPE Proliant DL580 10th gen?**
+
+Qué con una sola línea de código (y en 10 minutos) podés convertirlos en un servidor de archivos en red, acceso remoto seguro VPN, proxy de aceleración y seguridad de internet y más. **Ah, y es gratis**.
+
 workbox(code) es un gestor de servidores basado en Debian Linux super-super-super-super-super simple de utilizar.
 
-## Misión workbox(code)
+## Que... qué??
 
-Tomar un montón de software libre y gratuito absolutamente genial, bien mantenido y de grado enterprise pero complejos en general de instalar/administrar/mantener; y empaquetarlo con librerías que bajen la barrera técnica de acceso a estos servicios, facilitando el uso.
+Paradójicamente, la tecnología más robusta, estable y mejor desarrollada del mundo es de acceso libre y gratuito; aún así pequeñas y medianas empresas se ven atrapadas en licencias pagas de empresas privadas por software de menor calidad.
+
+¿Por qué? Porque el software Open Source (libre y gratuito), en general requiere de conocimientos un poco o bastante más avanzados para lograr implementarlo o utilizarlo que una solución privativa como por ejemplo, Windows. Digamos que viene "más masticada" la cosa.
+
+### ¿Cuál es la misión de workbox?
+
+Tomar parte de ese excelente software Open Source creado por comunidades de profesionales a través del mundo y ponerlo a disposición de usuarios menos (o nada) técnicos. Cómo lo hacemos? Incluyendo herramientas que hacen de administrar ese software algo tan o más simple que comprar uno pago.
 
 **¿Por qué "(code)"?**
 
