@@ -12,7 +12,7 @@ OS: Raspberry PI OS Buster
 
 ## Comentarios
 
-* El instalador no habilita el servidor SSH por defecto issue #1.
+* El instalador no habilita el servidor SSH por defecto (issue [#3](../issues/3)).
 
 
 ## Detalles
