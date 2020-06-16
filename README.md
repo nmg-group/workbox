@@ -81,10 +81,20 @@ Accede a los [detalles](Servicios.md).
 
 Será un largo camino, pero valdrá la pena. Accede a los [detalles del roadmap](Roadmap.md).
 
+## Cómo colaborar
+
+Puedes colaborar con el proyecto y con ello contribuir a que crezca de varias maneras:
+
+* Compartiéndolo con colegas para que lo conozcan y utilicen.
+* Informando de errores, falta de documentación y otros a través de [issues](/nmendezgranton/workbox/issues).
+* Enviando resultados de tus pruebas en otras plataformas (sólo distros de Linux de momento).
+* Sugiriendo nuevas funciones y características a través de [issues](/nmendezgranton/workbox/issues).
+
 
 ## Autores
 
 * **NMG** - *Initial work* - [NMG](https://nicolasmendez.com.ar)
+
 
 ## Licencia
 
