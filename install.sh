@@ -22,7 +22,7 @@ else
   exit
 fi
 
-echo "El SO es compatible! ${SUCCESS}"
+echo -e "El SO es compatible! ${SUCCESS}"
 echo "SO: ${WB_SO}"
 echo -e "Version: ${WB_VER}\n"
 
