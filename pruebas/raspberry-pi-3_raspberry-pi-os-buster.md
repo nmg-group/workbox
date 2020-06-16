@@ -25,3 +25,7 @@ OS: Raspberry PI OS Buster
 Samba server and Utilities
 Modify smb.conf to use WINS settings from DHCP.
 [No] (default)
+
+~36 mins Finaliza install Netatalk
+
+~39 mins Finaliza instalación Squid Proxy
