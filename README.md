@@ -58,10 +58,10 @@ Cuando esté disponible el panel de control web puedes cambiar esta configuraci�
 
 Para usarlo, indica en la configuración de proxy de los equipos en los que quieras utilizarlo la siguiente información:
 
-´´´
+```
 Servidor proxy: IP.DE.TU.WORKBOX
 Puerto: 3128
-´´´
+```
 
 **Importante**: No expongas el puerto de tu proxy al exterior! Con la configuración por defecto esto representa una vulnerabilidad de seguridad!
 
