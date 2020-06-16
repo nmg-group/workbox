@@ -9,12 +9,12 @@ OS: Raspberry PI OS Buster
 
 **Tiempo instalación**: ~40 mins
 
-## Comentarios
+## Comentarios
 
 * El instalador no habilita el servidor SSH por defecto issue #1.
 
 
-## Detalle
+## Detalles
 
 ~17 mins finaliza instalación LAMP
 
@@ -27,7 +27,7 @@ OS: Raspberry PI OS Buster
 ```
 Samba server and Utilities
 Modify smb.conf to use WINS settings from DHCP.
-*[No]* (default)
+[No] (default)
 ```
 
 ~36 mins Finaliza install Netatalk
