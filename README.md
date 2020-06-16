@@ -14,8 +14,8 @@ Simple. No tenemos autorización para usar la marca workbox y está registrada e
 
 ### Pre-requisitos
 
-1. De momento sólo está soportado y probado con Ubuntu Server (testeado v. 20.04).
-Link: https://ubuntu.com/download/server
+1. De momento sólo está soportado y probado sobre Ubuntu (testeado sobre Ubuntu server v. 20.04). No requiere interfaz gráfica.
+Link: https://ubuntu.com/download
 
 2. Un usuario con privilegios sudo. (**No el root**).
 
@@ -32,10 +32,9 @@ Para instalar workbox(code) con todas las funciones, inicia sesión por línea d
 wget -O - https://workbox.com.ar/install | bash
 ```
 
-A continuación te solicitará el ingreso de un usuario de Github con acceso y posteriormente la clave del usuario con privilegios Sudo.
+A continuación te solicitará probablemente la clave del usuario para utilizar sudo, y posteriormente el ingreso de un usuario de Github con acceso al repo.
 
-Grab a coffee ☕
-
+La instalación puede demorar entre 4 y 20 minutos dependiendo del equipo. (Paciencia, prometido que vale la pena) 🧘‍♂️
 
 ## ¿Cómo utilizarlo?
 
