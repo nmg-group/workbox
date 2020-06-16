@@ -5,5 +5,5 @@ COFFEE='\U2615'
 WORLD='\U1F30D'
 ALARM='\U1F6A8'
 
-apt-get --assume-yes install zip unzip
+apt-get --assume-yes install zip unzip mailutils
 # echo "/home/$SUDO_USER/.config/"
