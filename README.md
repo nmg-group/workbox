@@ -8,7 +8,7 @@ Tomar un montón de software libre y gratuito absolutamente genial, bien manteni
 
 **¿Por qué "(code)"?**
 
-Simple. No tenemos autorización para usar la marca workbox y está registrada en Argentina (donde nació el proyecto).
+Simple: No tenemos autorización para usar la marca workbox y está registrada en Argentina (donde nació el proyecto).
 
 ## ¿Como instalarlo?
 
@@ -19,11 +19,11 @@ Link: https://ubuntu.com/download
 
 2. Un usuario con privilegios sudo. (**No el root**).
 
-3. Si vas a utilizar características como el acceso VPN y Proxy, es altamente recomendable fijar la IP del equipo, puedes hacerlo desde tu router o [googleando cómo fijar la IP + **tu versión de SO**](https://www.google.com/search?q=ubuntu+20.04+static+ip+terminal&oq=ubuntu+20.04+fix+ip+terminal).
+3. Si vas a utilizar características como el acceso VPN y Proxy, es altamente recomendable fijar la IP del equipo, puedes hacerlo desde tu router o [googleando cómo fijar la IP + **tu versión de SO**](https://www.google.com/search?q=ubuntu+20.04+static+ip+terminal&oq=fix+ip+misistemaoperativo).
 
 4. Para poder conectar desde el exterior, por ejemplo a la VPN, es recomendable que cuentes con IP fija o en su defecto algún tipo de dominio dinámico.
 
-* Una vez que hayas realizado la instalación, puedes indicarnos el resultado a través de un [issues](https://github.com/nmendezgranton/workbox/issues) con el título: "Resultado instalación - Arquitectura / SO versión" y conteniendo detalles o comentarios de tu instalación. Primero busca un issue referido a tu misma arquitectura, por favor.
+* Una vez que hayas realizado la instalación, puedes indicarnos el resultado a través de un [issue](https://github.com/nmendezgranton/workbox/issues) con el título: "Resultado instalación - Arquitectura / SO versión" y conteniendo detalles o comentarios de tu instalación. Primero busca un issue referido a tu misma arquitectura, por favor.
 
 Los resultados de las pruebas que recibamos se compilarán en [Pruebas](/pruebas/Pruebas.md).
 
@@ -55,6 +55,15 @@ Tras la instalación el servidor de archivos estará activo. Si en un ordenador 
 
 Por defecto, el Proxy está configurado para cachear contenido pero no limitar el acceso a ninguna categoría de sitios.
 Cuando esté disponible el panel de control web puedes cambiar esta configuración.
+
+Para usarlo, indica en la configuración de proxy de los equipos en los que quieras utilizarlo la siguiente información:
+
+´´´
+Servidor proxy: IP.DE.TU.WORKBOX
+Puerto: 3128
+´´´
+
+**Importante**: No expongas el puerto de tu proxy al exterior! Con la configuración por defecto esto representa una vulnerabilidad de seguridad!
 
 
 ### VPN
@@ -103,8 +112,4 @@ Puedes colaborar con el proyecto y con ello contribuir a que crezca de varias ma
 
 ## Licencia
 
-Aún no se ha definido una licencia para el proyecto. Hasta tanto se defina:
-
-* Puedes descargar una copia de todo el software, modificarla y distribuirla para uso privado no comercial.
-* No aceptaremos contribuciones de software, puedes colaborar igualmente.
-* No se otorgan garantías de ningún tipo.
+Ve al archivo [License](LICENSE) para ver derechos y limitaciones (GNU GPL v3).
