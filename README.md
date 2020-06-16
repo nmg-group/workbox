@@ -86,9 +86,9 @@ Será un largo camino, pero valdrá la pena. Accede a los [detalles del roadmap]
 Puedes colaborar con el proyecto y con ello contribuir a que crezca de varias maneras:
 
 * Compartiéndolo con colegas para que lo conozcan y utilicen.
-* Informando de errores, falta de documentación y otros a través de [issues](/nmendezgranton/workbox/issues).
+* Informando de errores, falta de documentación y otros a través de [issues](https://github.com/nmendezgranton/workbox/issues).
 * Enviando resultados de tus pruebas en otras plataformas (sólo distros de Linux de momento).
-* Sugiriendo nuevas funciones y características a través de [issues](/nmendezgranton/workbox/issues).
+* Sugiriendo nuevas funciones y características a través de [issues](https://github.com/nmendezgranton/workbox/issues).
 
 
 ## Autores
