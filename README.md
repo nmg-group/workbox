@@ -46,8 +46,6 @@ Para instalar workbox(code) con todas las funciones, inicia sesión por línea d
 wget -O - https://workbox.com.ar/install | bash
 ```
 
-A continuación te solicitará probablemente la clave del usuario para utilizar sudo, y posteriormente el ingreso de un usuario de Github con acceso al repo.
-
 La instalación puede demorar entre 4 y 20 minutos dependiendo del equipo. (Paciencia, prometido que vale la pena) 🧘‍♂️
 
 **SHA 256 checksum**: 07c5952fc5ebb2ac3d8b4d23b949e83bb6d4d0794ff99f21a5a3cb96efab914d
