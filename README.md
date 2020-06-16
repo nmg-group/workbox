@@ -2,7 +2,7 @@
 
 **¿Qué tienen en común un Raspberry Pi y un server HPE Proliant DL580 10th gen?**
 
-Qué con una sola línea de código (y en 10 minutos) podés convertirlos en un servidor de archivos en red, acceso remoto seguro VPN, proxy de aceleración y seguridad de internet y más. **Ah, y es gratis**.
+Qué con una sola línea de código (y en 8 minutos) podés convertirlos en un servidor de archivos en red, acceso remoto seguro VPN, proxy de aceleración y seguridad de internet y más. **Ah, y es gratis**.
 
 workbox(code) es un gestor de servidores basado en Debian Linux super-super-super-super-super simple de utilizar.
 
