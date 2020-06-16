@@ -92,7 +92,7 @@ Puedes colaborar con el proyecto y con ello contribuir a que crezca de varias ma
 
 * Compartiéndolo con colegas para que lo conozcan y utilicen.
 * Informando de errores, falta de documentación y otros a través de [issues](https://github.com/nmendezgranton/workbox/issues).
-* Enviando resultados de tus pruebas en otras plataformas (sólo distros de Linux de momento).
+* Enviando resultados de tus pruebas en otras plataformas (sólo distros basadas en Debian de momento).
 * Sugiriendo nuevas funciones y características a través de [issues](https://github.com/nmendezgranton/workbox/issues).
 
 
@@ -103,4 +103,8 @@ Puedes colaborar con el proyecto y con ello contribuir a que crezca de varias ma
 
 ## Licencia
 
-Todavía nada.
+Aún no se ha definido una licencia para el proyecto. Hasta tanto se defina:
+
+* Puedes descargar una copia de todo el software, modificarla y distribuirla para uso privado no comercial.
+* No aceptaremos contribuciones de software, puedes colaborar igualmente.
+* No se otorgan garantías de ningún tipo.
