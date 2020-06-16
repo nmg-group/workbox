@@ -29,3 +29,5 @@ Modify smb.conf to use WINS settings from DHCP.
 ~36 mins Finaliza install Netatalk
 
 ~39 mins Finaliza instalación Squid Proxy
+
+~43 mins Finaliza y reinicio
