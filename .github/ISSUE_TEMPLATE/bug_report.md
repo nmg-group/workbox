@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Describe el problema**
-Una descripción clara y concisa de cuál es el problema
+Una descripción clara y concisa de cuál es el problema.
 
 **Pasos para reproducirlo**
 Lista los pasos necesarios para reproducir el error:
@@ -24,8 +24,13 @@ Descripción clara y concisa de lo que debería ocurrir.
 Si aplica, puedes incluir impresiones de pantalla.
 
 **Ambiente (por favor completa la siguiente información):**
- - OS: [ej. iOS]
- - Version [e.g. 22]
+ - OS: [ej. Ubuntu Server]
+ - Version [e.g. 20.04]
+
+ **Cliente (si aplica):**
+  - OS: [ej. Windows]
+  - Version [e.g. 10]
+  - Browser [Chrome]
 
 **Contexto adicional**
 Otra información de contexto, útil para analizar el problema.
