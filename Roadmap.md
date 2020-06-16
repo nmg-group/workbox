@@ -40,30 +40,3 @@ Posibilidad de utilizar un servicio de DNS dinámico como Afraid FreeDNS
 ### Backups en la nube
 
 Posibilidad de configurar backup automático hacia Google Drive / Dropbox y otros.
-
-
-## Servicios de pago
-
-### Dynamic DNS automático
-
-Instalar un workbox automáticamente asignará un subdominio de tipo *xyz.pub.workbox.com.ar* para simplificar el acceso y configuración.
-
-### Autoconfiguración de proxy
-
-Autoconfiguración de la dirección del proxy cuando los equipos se encuentren dentro de la red, y directo si no lo están.
-
-### Backup automático en la nube
-
-Backups automáticos de la información hacia los servidores de workbox en la nube.
-
-### Túneles reversos
-
-Acceso a los puertos internos del equipo sin necesidad de abrir puertos en el router.
-
-### Actualización de Proxy
-
-Actualización automática de las categorías de bloqueo en el servidor Proxy.
-
-### SSL && Reverse proxy
-
-Hostea tu propio sitio web en workbox, con SSL.
