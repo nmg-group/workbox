@@ -23,6 +23,10 @@ Link: https://ubuntu.com/download
 
 4. Para poder conectar desde el exterior, por ejemplo a la VPN, es recomendable que cuentes con IP fija o en su defecto algún tipo de dominio dinámico.
 
+* Una vez que hayas realizado la instalación, puedes indicarnos el resultado a través de un [issues](https://github.com/nmendezgranton/workbox/issues) con el título: "Resultado instalación - Arquitectura / SO versión" y conteniendo detalles o comentarios de tu instalación. Primero busca un issue referido a tu misma arquitectura, por favor.
+
+Los resultados de las pruebas que recibamos se compilarán en [Pruebas](/pruebas/Pruebas.md).
+
 
 ### Para instalarlo
 
