@@ -7,4 +7,4 @@ Arquitectura | SO | Versión SO | Resultado | Tiempo aprox. | Comentarios | Deta
 ------------ | -- | ---------- | --------- | ------------- | ----------- | --------
 VirtualBox VM | Ubuntu | 20.04 | Ok | ~6 mins | |
 KVM VM | Ubuntu | 20.04 | Ok | ~4 mins | |
-Raspberry Pi 3 (ARM) | Raspberry PI OS | Buster | Ok | ~43 mins | Muy lenta la instalación | [Link](pruebas/raspberry-pi-3_raspberry-pi-os-buster.md)
+Raspberry Pi 3 (ARM) | Raspberry PI OS | Buster | Ok | ~43 mins | Muy lenta la instalación | [Link](raspberry-pi-3_raspberry-pi-os-buster.md)
