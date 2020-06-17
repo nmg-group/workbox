@@ -10,8 +10,6 @@ apt-get --assume-yes install ufw
 echo -e "\e[4mListo.\n\e[0m"
 
 
-# https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-a-certificate-authority-ca-on-ubuntu-20-04
-
 echo -e "\n\e[1mInstalando Easy RSA\e[0m\n"
 apt-get --assume-yes install easy-rsa
 echo -e "\e[4mListo.\n\e[0m"
@@ -53,10 +51,6 @@ cd easy-rsa
 su -c "./easyrsa build-ca nopass" ${SUDO_USER}
 echo -e "\e[4mListo.\n\e[0m"
 
-
-
-
-# https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-20-04
 
 echo -e "\n\e[1mInstalando OpenVPN\e[0m\n"
 apt-get --assume-yes install openvpn
