@@ -5,6 +5,10 @@ echo -e "\e[1mActualizando paquetes\e[0m\n"
 apt-get update
 echo -e "\e[4mListo.\n\e[0m"
 
+echo -e "\n\e[1mInstalando UFW\e[0m\n"
+apt-get --assume-yes install ufw
+echo -e "\e[4mListo.\n\e[0m"
+
 
 # https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-a-certificate-authority-ca-on-ubuntu-20-04
 

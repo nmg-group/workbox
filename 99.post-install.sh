@@ -7,3 +7,6 @@ ufw allow https
 
 ufw allow 548
 ufw allow 5353
+
+ufw disable
+ufw --force enable
