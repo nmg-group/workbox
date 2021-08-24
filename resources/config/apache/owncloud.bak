@@ -1,1 +1,14 @@
-Alias /cloud /home/SUDO_USER/www/owncloud
+Alias /owncloud /home/SUDO_USER/www/owncloud
+
+<Directory /home/SUDO_USER/www/owncloud/>
+  Options +FollowSymlinks
+  AllowOverride All
+
+ <IfModule mod_dav.c>
+  Dav off
+ </IfModule>
+
+ SetEnv HOME /home/SUDO_USER/www/owncloud
+ SetEnv HTTP_HOME /home/SUDO_USER/www/owncloud
+
+</Directory>
