@@ -43,12 +43,12 @@ Los resultados de las pruebas que recibamos se compilarán en [Pruebas](/pruebas
 Para instalar workbox(code) con todas las funciones, inicia sesión por línea de comandos (o abre una terminal) y pega esto en el bash:
 
 ```
-wget -O - https://workbox.com.ar/install | bash
+wget -O - https://nmg.systems/workbox/install | bash
 ```
 
 La instalación puede demorar entre 4 y 20 minutos dependiendo del equipo. (Paciencia, prometido que vale la pena) 🧘‍♂️
 
-**SHA 256 checksum**: 07c5952fc5ebb2ac3d8b4d23b949e83bb6d4d0794ff99f21a5a3cb96efab914d
+**SHA 256 checksum**: 8cc2a8b89327090358cac06f4f7adcb8934f90875f5859070f434462e492c3dd
 
 ## ¿Cómo utilizarlo?
 
