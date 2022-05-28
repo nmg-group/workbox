@@ -48,7 +48,8 @@ wget -O - https://nmg.systems/workbox/install | bash
 
 La instalación puede demorar entre 4 y 20 minutos dependiendo del equipo. (Paciencia, prometido que vale la pena) 🧘‍♂️
 
-**SHA 256 checksum**: 8cc2a8b89327090358cac06f4f7adcb8934f90875f5859070f434462e492c3dd ([¿Cómo comprobar la suma de verificación?](https://www.google.com/search?q=como+comprobar+sha+256+checksum))
+**SHA 256 checksum**: 8cc2a8b89327090358cac06f4f7adcb8934f90875f5859070f434462e492c3dd
+([¿Cómo comprobar la suma de verificación?](https://www.google.com/search?q=como+comprobar+sha+256+checksum))
 
 ## ¿Cómo utilizarlo?
 
